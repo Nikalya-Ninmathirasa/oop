@@ -1,20 +1,5 @@
-public class Class{
-
-    public static void main(String[] args) {
-        
-      //object
-        Class obj = new Class();
-        
-        // value 
-        obj.name ="Joe";
-        obj.rollno = 1001;
-
-        //method call
-        obj. display();
-        
-    }
-
-   
+ class Class{
+ 
     
         // variables
        
@@ -28,7 +13,22 @@ public class Class{
             System.out.println(name);
             System.out.println(rollno);
 
-        }
+            
+
+       } 
+  class Main {
+	
+            public static void main (String[] args) {
+                    
+                    Class obj = new Class();
+                    obj.name = "Joe";
+                    obj.rollno = 1001;
+                    
+                    obj.display();
+                    
+                }
+            }
+       
     
     
 }
